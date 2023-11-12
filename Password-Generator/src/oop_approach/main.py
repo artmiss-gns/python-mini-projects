@@ -51,7 +51,7 @@ class RememberablePasswordGenerator(PasswordGenerator) :
     ):
         self.length = length
         self.separator = separator
-        self.word_list = nltk.corpus.words.words() if word_list is None else word_list
+        self.word_list = nltk.corpus.words.words() if not word_list else word_list
 
     @staticmethod
     def word_list_validator(word_list) :
