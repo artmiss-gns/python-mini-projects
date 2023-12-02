@@ -1,2 +1,5 @@
 # Exclude test.ipynb files
 test.ipynb
+
+# Exclude test.ipynb files
+*.DS_Store
