@@ -1,5 +1,8 @@
 # Exclude test.ipynb files
 test.ipynb
 
-# Exclude test.ipynb files
+# Exclude DS_Store files
 *.DS_Store
+
+# Exclude __pycache__ files
+*__pycache__
